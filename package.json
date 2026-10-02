@@ -1,0 +1,9 @@
+{
+  "name":"abc-ecommerce-react-router",
+  "private":true,
+  "version":"1.0.0",
+  "type":"module",
+  "scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},
+  "dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","react-router-dom":"6.28.2"},
+  "devDependencies":{}
+}

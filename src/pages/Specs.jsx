@@ -1,0 +1,1 @@
+import {useParams} from 'react-router-dom';import {products} from '../data/products';export default function Specs(){const p=products.find(x=>x.id===useParams().id);return <div><h3>Product Specifications</h3><ul>{p?.specs.map(s=><li key={s}>{s}</li>)}</ul></div>}

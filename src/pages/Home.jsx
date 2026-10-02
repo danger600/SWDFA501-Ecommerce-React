@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default function Home(){return <section className="hero"><div><p className="eyebrow">ABC ONLINE BUSINESS • KAYONZA</p><h1>Shop smarter. <span>Live better.</span></h1><p>Welcome to ABC Shop, a React Router powered e-commerce frontend for products, carts and user profiles.</p><Link className="btn" to="/products">Browse Products →</Link></div><div className="hero-card">🛍️<br/><b>Fast navigation</b><br/><small>No full-page reloads</small></div></section>}

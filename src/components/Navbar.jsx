@@ -1,0 +1,2 @@
+import {NavLink} from 'react-router-dom';
+export default function Navbar(){const link=({isActive})=>isActive?'nav-link active':'nav-link';return <header className="navbar"><div className="brand">ABC<span>Shop</span></div><nav>{[['/','Home'],['/products','Products'],['/cart','Cart'],['/profile','User Profile']].map(([to,label])=><NavLink key={to} to={to} className={link}>{label}</NavLink>)}</nav></header>}

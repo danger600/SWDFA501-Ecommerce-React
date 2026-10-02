@@ -1,0 +1,1 @@
+export default function Profile(){return <section className="profile card"><div className="avatar">U</div><div><p className="eyebrow">USER PROFILE</p><h2>Demo Customer</h2><p>Email: customer@example.com</p><p>Account status: <span className="tag">Active</span></p></div></section>}
